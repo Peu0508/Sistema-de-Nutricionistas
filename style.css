@@ -1,0 +1,104 @@
+/* NAVEGAÇÃO DO SITE */
+
+.cabecalho{
+    background-color: #259073;
+    
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    background-color: #259073;
+    padding:0em 0em 1em 0em;
+    margin: 0px;
+    
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.navbar-brand:hover{
+    color:white;
+}
+
+.navbar{
+    padding: 0em;
+    
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    gap:2em;
+}
+
+/* CALCULADORA DE IMC */
+
+.calc__container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+    gap: 3em;
+}
+
+.form__select{
+    display: flex;
+    width: 30%;
+}
+
+.form__peso{
+    width: 30%;
+}
+
+.botao__calcular{
+    border-color: #259073;
+    color: #259073;
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.botao__calcular:hover {
+
+    background-color: #259073;
+    color: white;
+
+}
+
+/* RODAPÉ */
+
+.rodape{
+    display: flex;
+    background-color: #259073;
+    width: 100%;
+    height: 3em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    height: 3em;
+    padding: 1em 0em 0em 0em;
+
+}
+
+@media (max-width: 800px) {
+
+    .form__select{
+        display: flex;
+        width: 50%;
+    }
+    
+    .form__peso{
+        width: 50%;
+    }
+   
+}
+
+
