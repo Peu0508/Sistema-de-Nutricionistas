@@ -1,3 +1,49 @@
+/* ÁREA DE LOGIN */
+
+.form__titulo{
+    text-align: center;
+
+}
+
+.formulario__login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5em;
+}
+
+.formulario__area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5em;
+}
+
+.form__area{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    width: 30%;
+    border: 1px solid #259073;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.btn{
+    background-color: #259073;
+    border-color: #9dad42;
+    width: 20%;
+    align-self: center;
+}
+
+.btn:hover{
+    background-color: #9dad42;
+    border-color: #259073;
+}
+
+
 /* NAVEGAÇÃO DO SITE */
 
 html, body {
@@ -60,7 +106,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3em;
+    padding-top: 13em;
     gap: 3em;
 }
 
@@ -101,6 +147,10 @@ main {
     height: 3em;
     padding: 1em 0em 0em 0em;
 
+}
+
+.rodape__texto{
+    color:white;
 }
 
 @media (max-width: 990px) {
