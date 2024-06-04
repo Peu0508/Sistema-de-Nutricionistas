@@ -27,7 +27,7 @@
     </header>
     
     <main class="formulario__login">
-        <form class="form__area">
+        <form class="form__area" id="loginForm">
             <h1 class="form__titulo">Login</h1>
             <div class="form-group">
                 <label for="username">Usuário</label>
@@ -35,10 +35,11 @@
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control" id="password">
             </div>
             <button type="submit" class="btn btn-primary">Entrar</button>
           </form>
+          <div id="error" class="text-danger mt-3" style="display: none;">Invalid username or password.</div>
       </main>
     
     
@@ -52,6 +53,7 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    
+    <script src="login.js"></script>
 </body>
 </html>

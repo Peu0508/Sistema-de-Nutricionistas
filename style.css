@@ -153,6 +153,46 @@ main {
     color:white;
 }
 
+/* CADASTRO */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.crud-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap:1em;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.btn-adicionar{
+    width: 6em;
+}
+
+.btn-danger{
+    width: 4em;
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 990px) {
 
     .form__select{
